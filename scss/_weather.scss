@@ -1,0 +1,14 @@
+.weather {
+    background-color: #a5a5ad7e;
+    &__title {
+        display: flex;
+        justify-content: center;
+        background-color: cornflowerblue;
+        color: cornsilk;
+        border-radius: 50%;
+        font-size: 25px;
+    }
+    &__api {
+        text-align: center;
+    }
+}

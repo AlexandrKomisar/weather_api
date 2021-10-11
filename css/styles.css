@@ -1,0 +1,22 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.weather {
+  background-color: #a5a5ad7e;
+}
+
+.weather__title {
+  display: flex;
+  justify-content: center;
+  background-color: cornflowerblue;
+  color: cornsilk;
+  border-radius: 50%;
+  font-size: 25px;
+}
+
+.weather__api {
+  text-align: center;
+}
+/*# sourceMappingURL=styles.css.map */
