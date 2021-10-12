@@ -4,7 +4,8 @@
 }
 
 .weather {
-  background-color: #a5a5ad7e;
+  background-color: #cccccfce;
+  padding: 30px;
 }
 
 .weather__title {
@@ -14,6 +15,7 @@
   color: cornsilk;
   border-radius: 50%;
   font-size: 25px;
+  padding: 10px;
 }
 
 .weather__api {
@@ -22,9 +24,15 @@
 
 .weather__card {
   margin-top: 30px;
+  list-style: none;
 }
 
 .weather__card_item {
   padding: 10px;
+  border: solid #6868697e;
+  background-color: antiquewhite;
+  margin: 30px;
+  border-radius: 10px;
+  box-shadow: 14px 18px 16px -2px rgba(32, 136, 217, 0.17);
 }
 /*# sourceMappingURL=styles.css.map */
