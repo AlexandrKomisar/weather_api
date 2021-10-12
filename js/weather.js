@@ -5,7 +5,8 @@ fetch('http://api.openweathermap.org/data/2.5/weather?id=6548066&appid=b23aa5b1f
   })
   .then(function (data) {
     console.log(data);
-    document.querySelector('')
+    document.querySelector('.city-name').innerHTML = data.name;
+    document.querySelector('.weather-temp').innerHTML = Math.round(data.main.temp - 273) + '&deg;';
   })
   .catch(function () {
     // eroros
