@@ -26,13 +26,25 @@
   margin-top: 30px;
   list-style: none;
   border: solid #6868697e;
-  background-color: #e4c399;
+  background-color: #ffffff;
   border-radius: 10px;
   box-shadow: 14px 18px 16px -2px rgba(32, 136, 217, 0.17);
 }
 
 .weather__card_item {
+  text-align: center;
   padding: 10px;
   margin: 30px;
+  font-size: 28px;
+}
+
+.weather .weather-sizes {
+  width: 200px;
+}
+
+.weather .city-name {
+  font-size: 40px;
+  color: #13d33d;
+  font-weight: 700;
 }
 /*# sourceMappingURL=styles.css.map */

@@ -10,14 +10,10 @@ fetch('http://api.openweathermap.org/data/2.5/weather?id=700569&appid=b23aa5b1fc
     document.querySelector('.city-name').innerHTML = data.name;
     document.querySelector('.weather-temp').innerHTML = Math.round(data.main.temp - 273) + '&deg;';
     document.querySelector('.weather-cloud').innerHTML = data.weather[0]['description'];
-    document.querySelector('.weather-icon').innerHTML = data.weather[0]['icon'];
-
-    // document.querySelector('02n').innerHTML = data.weather[0]['icon'];
+    document.querySelector('.weather-icon').innerHTML = `<img class="weather-sizes" src="./image/${data.weather[0]['icon']}.png"/>`
+    document.querySelector('.weather-wind').innerHTML = `скорость ветра ${data.wind.speed}m/s`;
   })
   
   .catch(function () {
     // eroros
   });
- 
-//  $('li:contains("01d")');
-    // x.html('<img src="./image/02d.png"/>')

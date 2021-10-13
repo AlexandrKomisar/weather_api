@@ -14,15 +14,27 @@
         text-align: center;
     }
     &__card {
+        
         margin-top: 30px;
         list-style: none;
         border: solid #6868697e;
-        background-color: rgb(228, 195, 153);
+        background-color: #ffffff;
         border-radius: 10px;
         box-shadow: 14px 18px 16px -2px rgba(32, 136, 217, 0.17);
         &_item {
+            text-align: center;
             padding: 10px;
             margin: 30px;
+            font-size: 28px;
         }
+    }
+    
+    .weather-sizes {
+        width: 200px;
+    }
+    .city-name {
+        font-size: 40px;
+        color: #13d33d;
+        font-weight: 700;
     }
 }
